@@ -1,0 +1,73 @@
+body{
+    overflow: auto;
+    background-color:#E6FFFD;
+}
+
+.tab-item img{
+    width: 100%;
+   height: 100%;
+}
+.icons{
+    background-color: black;
+    color: white;
+}
+.r{
+    color: white;
+}
+.tab-layer{
+    background-color: rgba(35, 36, 36, 0.7);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+}
+.tab-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 40vh;
+    /* background-color: rgb(180, 180, 180); */
+}
+.tab-item:hover .tab-layer{
+   opacity: 1;
+   transform: rotate(5deg);
+   transition-duration: 1s;
+}
+.tab-item:hover img{
+    transform: rotate(5deg);
+    transition: all 1s;
+}
+.tab-item:hover .r{
+  transform: translateY(5px);
+  transition-duration: 1s;
+}
+.tab-item:hover .ic{
+    transform: translateY(-5px);
+    transition-duration: 1s;
+}
+.ic i{
+    padding: 10px;
+    border-radius: 50%;
+    border: solid 1px black;
+}
+.ic i:hover{
+    background-color: white;
+    color: black;
+}
+.ic a{
+    /* background-color: aliceblue !important; */
+    width: 150px;
+    border: solid 1px white;
+    color: white;
+}
+
+.ic a:hover{
+    color: #A5D7E8 !important;
+    background-color: #0B2447;  
+}

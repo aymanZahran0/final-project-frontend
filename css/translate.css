@@ -1,0 +1,5 @@
+#google_translate_element{
+    position: fixed;
+    right: 1%;
+    z-index: 99999999;
+}

@@ -1,0 +1,126 @@
+body{
+    /* background-color: rgb(36,53,63); */
+    /* background-color: rgb(12,11,9); */
+    background-color: #E6FFFD;
+    font-family: "Titillium Web", sans-serif;
+}
+.cursor{
+    cursor: pointer;
+}
+.back{
+    margin: 30px;
+}
+.back a{
+    color: beige;
+    text-decoration: none;
+}
+.cont{
+    /* background-color: rgb(36,53,63); */
+    /* background-color: rgb(26,24,20); */
+    background-color: #0B2447;
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    box-shadow: -6px 6px 40px rgb(47, 47, 47);
+    /* box-shadow: -6px 6px 40px rgb(0, 0, 0); */
+}
+.coler-h1{
+    /* color:rgb(23,162,184); */
+    color:white !important;
+    font-size: 40px;
+    padding-top: 50px;
+
+}
+input{
+    width: 60%;
+    margin: 8px;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    border: solid 3px ;
+    padding-left:  10px;
+    outline: none;
+}
+input[type="text"]:focus{
+    border:1px solid #E6FFFD ;
+}
+input[type="number"]:focus{
+    border:1px solid #E6FFFD ;
+}
+input[type="email"]:focus{
+    border:1px solid #E6FFFD ;
+}
+input[type="password"]:focus{
+    border:1px solid #E6FFFD ;
+}
+
+.btnn{
+    width: 30%;
+    margin: 20px;
+}
+h6{
+    color: #cda45e;
+    padding-bottom:50px ;
+}
+h6 a{
+color: white;
+text-decoration: none;
+}
+
+#element1, #element2 ,#exists{
+    margin: auto;
+    width: 25%;
+    padding: 5px;
+    color: red !important;
+}
+#element3{
+    width: 50%;
+    padding: 5px;
+    margin: auto;
+    color: red !important;
+}
+#success{
+    color: green !important;
+    padding: 5px;
+
+}
+.colerr{
+    color: white !important;
+}
+
+/* ___________start home___________________ */
+.bg{
+    /* background-color: rgb(36,53,63); */
+    background-color: rgb(26,24,20);
+    box-shadow: 15px 15px 30px ;
+}
+.wiid {
+    width: 70%;
+}
+.buttonNav{
+    color: gray;
+}
+.content{
+    height: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+
+}
+.cont2{
+    background-color: rgb(26,24,20);
+    box-shadow: 0px 0px 30px rgb(22, 22, 22);
+    width: 55%;
+    margin: auto;
+    padding: 50px;
+    
+}
+
+#welcome{
+    color:#cda45e;
+}
+
