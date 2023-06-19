@@ -236,11 +236,10 @@ h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
-.bi{
-  color: white !important;
+
+/* Desktop Navigation */
+i.bi{
+  color: #19376D !important;
 }
 .navbar {
   padding: 0;

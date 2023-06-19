@@ -7,9 +7,8 @@ $(window).scroll(function(){
     $('.arrow').css('display' , 'flex');
   }
   else{
-    $('#navbar').css('backgroundColor' , 'transparent');
+    // $('#navbar').css('backgroundColor' , 'transparent');
     $('.arrow').css('display' , 'none');
-
 
   }
 })

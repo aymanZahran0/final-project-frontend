@@ -1,0 +1,21 @@
+.reservation_icon{
+    font-size: 25px;
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0B2447;
+    position: fixed;
+    color: white;
+    z-index: 99999999999999999999;
+    top: 25%;
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px;  
+}
+.reservation_icon i{
+    color: white;
+}
+.reservation_icon:hover{
+    background-color: #576CBC;
+}

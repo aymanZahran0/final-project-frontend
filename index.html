@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/time.css">
+    <link rel="stylesheet" href="css/reservation_icon.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -29,7 +30,14 @@
     </section><!--end loading screen-->
 
 
-
+    <div class="container0">
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+        <span id="session">AM</span>
+    </div>
 
      <!-- &amp; -->
     <!-- start home _______________________________________________-->
@@ -77,14 +85,7 @@
                                 </li> 
 
                                 <li class="nav-item">
-                                    <div class="container">
-                                        <span id="hours">00</span>
-                                        <span>:</span>
-                                        <span id="minutes">00</span>
-                                        <span>:</span>
-                                        <span id="seconds">00</span>
-                                        <span id="session">AM</span>
-                                    </div>
+                                    
                                 </li> 
 
                             </ul>
@@ -97,9 +98,10 @@
 
            
            <div class="icoons">
-             <!-- <div class="gear">
-                 <i class="fa-solid fa-gear fa-spin"></i>
-             </div> -->
+            
+             <div class="reservation_icon">
+               <a href="reservation.html"><i class="fa-solid fa-cart-shopping"></i></a>
+             </div>
 
              <div class="arrow">
                 <a href="#"> <i class="fa-solid fa-angle-up"></i> </a>
@@ -309,6 +311,7 @@
         <script src="js/jquery-3.6.1.min.js"></script>    
         <script src="js/bootstrap.bundle.min.js"></script> 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>   
+        <script src="js/navbar.js"></script>      
         <script src="js/time.js"></script>      
         <script src="js/index.js"></script>      
 </body>

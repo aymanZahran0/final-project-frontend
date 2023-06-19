@@ -120,20 +120,6 @@ a{
     height: 100vh  
 }
 
-.gear{
-    font-size: 25px;
-    width: 45px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(230,95,120);
-    position: fixed;
-    color: white;
-    top: 25%;
-    border-top-right-radius: 10px ;
-    border-bottom-right-radius: 10px;  
-}
 
 .arrow{
     width: 40px;

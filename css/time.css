@@ -3,17 +3,31 @@ body{
     margin: 0%;
     padding: 0%;
   }
-  .container{
+  /* .container{
     font-family: "Arial", Helvetica, sans-serif;
     padding-top: 20px;
     color: white;
     font-weight: bold;
     position: absolute;
     top: 0%;
-    /* left:2%; */
-    /* transform: translate(50%, -50%); */
     font-size: 16px;
     white-space: nowrap;
+  } */
+
+  .container0{
+    padding: 5px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0B2447;
+    position: fixed;
+    color: white;
+    z-index: 99999999999999999999;
+    top: 10%;
+    right: 2%;
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px;  
   }
   
 
