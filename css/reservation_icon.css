@@ -8,8 +8,9 @@
     background-color:#0B2447;
     position: fixed;
     color: white;
-    z-index: 99999999999999999999;
+    z-index: 999999;
     top: 25%;
+    left: 0%;
     border-top-right-radius: 10px ;
     border-bottom-right-radius: 10px;  
 }
